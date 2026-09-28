@@ -1,0 +1,95 @@
+{
+    "total_customers": 7043,
+    "churn_count": 1869,
+    "retained_count": 5174,
+    "churn_rate": 26.54,
+    "raw_missing_count": 11,
+    "outlier_summary": {
+        "tenure": {
+            "Q1": 9.0,
+            "Q3": 55.0,
+            "IQR": 46.0,
+            "LowerBound": -60.0,
+            "UpperBound": 124.0,
+            "OutlierCount": 0
+        },
+        "MonthlyCharges": {
+            "Q1": 35.5,
+            "Q3": 89.85,
+            "IQR": 54.35,
+            "LowerBound": -46.02,
+            "UpperBound": 171.38,
+            "OutlierCount": 0
+        },
+        "TotalCharges": {
+            "Q1": 398.55,
+            "Q3": 3786.6,
+            "IQR": 3388.05,
+            "LowerBound": -4683.52,
+            "UpperBound": 8868.67,
+            "OutlierCount": 0
+        }
+    },
+    "cohort_metrics": [
+        {
+            "cohort": "0-12 M (New)",
+            "count": 2186,
+            "churn_rate": 47.44
+        },
+        {
+            "cohort": "13-24 M (Developing)",
+            "count": 1024,
+            "churn_rate": 28.71
+        },
+        {
+            "cohort": "25-48 M (Established)",
+            "count": 1594,
+            "churn_rate": 20.39
+        },
+        {
+            "cohort": "49-72 M (Loyal)",
+            "count": 2239,
+            "churn_rate": 9.51
+        }
+    ],
+    "contract_metrics": [
+        {
+            "contract": "Month-to-month",
+            "count": 3875,
+            "churn_rate": 42.71
+        },
+        {
+            "contract": "One year",
+            "count": 1473,
+            "churn_rate": 11.27
+        },
+        {
+            "contract": "Two year",
+            "count": 1695,
+            "churn_rate": 2.83
+        }
+    ],
+    "numeric_stats": {
+        "tenure": {
+            "mean": 32.37,
+            "median": 29.0,
+            "std": 24.56,
+            "min": 0.0,
+            "max": 72.0
+        },
+        "MonthlyCharges": {
+            "mean": 64.76,
+            "median": 70.35,
+            "std": 30.09,
+            "min": 18.25,
+            "max": 118.75
+        },
+        "TotalCharges": {
+            "mean": 2279.73,
+            "median": 1394.55,
+            "std": 2266.79,
+            "min": 0.0,
+            "max": 8684.8
+        }
+    }
+}
